@@ -346,8 +346,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
+			(property "Reference" "CR2032-BAT1"
+				(at -0.635 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -355,14 +355,14 @@
 				)
 			)
 			(property "Value" "Conn_01x02_Socket"
-				(at 0 -5.08 0)
+				(at -0.635 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Battery:BatteryHolder_Keystone_1060_1x2032"
 				(at 0 0 0)
 				(effects
 					(font
@@ -482,7 +482,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
@@ -8942,6 +8942,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 48.26) (xy 127 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8e5261-2fc3-415a-ac27-dc91517cbb60")
+	)
+	(wire
+		(pts
 			(xy 184.15 66.04) (xy 179.07 66.04)
 		)
 		(stroke
@@ -14357,6 +14367,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 130.81 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a27700f-9b82-465b-a1e0-57f5c7b846f9")
+		(property "Reference" "C1"
+			(at 130.81 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 130.81 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 42.2148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 130.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "921d7826-3323-443c-a957-4f37d1ec8ff8")
+		)
+		(pin "2"
+			(uuid "55092e14-d6c8-47af-944f-70058bf0fd29")
+		)
+		(instances
+			(project ""
+				(path "/999a87cf-6a03-4be4-a445-b5341a1dddf0"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 208.28 100.33 0)
 		(unit 1)
@@ -16658,6 +16736,72 @@
 			(project "Wrectangle-V4"
 				(path "/999a87cf-6a03-4be4-a445-b5341a1dddf0"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6415c907-9614-43d1-9e8b-2f59b565dfe8")
+		(property "Reference" "#PWR080"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c3aec2f-1f77-4655-9bc8-7fb2a1980989")
+		)
+		(instances
+			(project "Wrectangle-V4"
+				(path "/999a87cf-6a03-4be4-a445-b5341a1dddf0"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
