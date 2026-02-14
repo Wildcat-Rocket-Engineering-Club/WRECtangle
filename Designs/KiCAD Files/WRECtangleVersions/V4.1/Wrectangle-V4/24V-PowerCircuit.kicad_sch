@@ -2951,7 +2951,7 @@
 		(uuid "fc2520c9-96ef-4e22-920d-62a79ead1aaa")
 	)
 	(label "BOOT"
-		(at 181.61 58.42 180)
+		(at 181.61 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
