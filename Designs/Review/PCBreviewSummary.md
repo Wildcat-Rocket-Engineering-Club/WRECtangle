@@ -272,11 +272,3 @@ Before sending to fab:
 * Always verify QFN footprints manually.
 * Never ignore ERC warnings without written justification.
 * Maintain a reusable “Pre-Fab Checklist” for future revisions.
-
----
-
-If you'd like, I can also:
-
-* Convert this into a **formal Design Review Sign-Off template**
-* Or generate a **Rev B change tracking section**
-* Or help you simulate the `Rin1` thermistor filter response numerically**
