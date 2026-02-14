@@ -8463,12 +8463,6 @@
 		(uuid "c64dd570-1e9d-44f4-9fab-b7f0fff06a8a")
 	)
 	(junction
-		(at 20.32 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7e68129-a5f5-47fb-85f9-b800b574526e")
-	)
-	(junction
 		(at 273.05 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8895,16 +8889,6 @@
 			(type default)
 		)
 		(uuid "576f6dbc-3c4b-451e-a140-ebc43607a0af")
-	)
-	(wire
-		(pts
-			(xy 20.32 101.6) (xy 20.32 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57ff03ab-061d-4853-9d83-e3b8b15d17e9")
 	)
 	(wire
 		(pts
@@ -9375,16 +9359,6 @@
 			(type default)
 		)
 		(uuid "e1beb93b-a15e-4822-9719-cd0de055105d")
-	)
-	(wire
-		(pts
-			(xy 20.32 104.14) (xy 20.32 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4f7c606-4643-46a5-85b9-45345079a289")
 	)
 	(wire
 		(pts
@@ -18919,6 +18893,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 20.32 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9c953ad-a15f-4e76-a0d8-e7a0379fc0e8")
+		(property "Reference" "#PWR079"
+			(at 13.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 16.51 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7df4fa2-e2db-441a-8a4f-4cce04983b67")
+		)
+		(instances
+			(project "Wrectangle-V4"
+				(path "/999a87cf-6a03-4be4-a445-b5341a1dddf0"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 24.13 106.68 90)
 		(unit 1)
@@ -18987,7 +19028,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 20.32 104.14 270)
+		(at 20.32 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18996,7 +19037,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad1f0d3c-9890-4219-b58b-40253572c488")
 		(property "Reference" "#PWR07"
-			(at 13.97 104.14 0)
+			(at 13.97 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19005,7 +19046,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 16.51 104.1399 90)
+			(at 16.51 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19014,7 +19055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 104.14 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19023,7 +19064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 104.14 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19032,7 +19073,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 104.14 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19044,7 +19085,7 @@
 			(uuid "a3194c36-b1ac-4792-8a36-8dcd1c0ff711")
 		)
 		(instances
-			(project ""
+			(project "Wrectangle-V4"
 				(path "/999a87cf-6a03-4be4-a445-b5341a1dddf0"
 					(reference "#PWR07")
 					(unit 1)
