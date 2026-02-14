@@ -8246,6 +8246,16 @@
 		)
 		(uuid "5b520be6-ae2d-433d-949d-2e1e2b61594b")
 	)
+	(text "luke edit test"
+		(exclude_from_sim no)
+		(at 24.638 130.048 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "95ca01d0-0cad-4fcc-b6cc-3fdad09da76a")
+	)
 	(text "SDO to GND\nfor default\nI2C address"
 		(exclude_from_sim no)
 		(at 167.386 144.272 0)
