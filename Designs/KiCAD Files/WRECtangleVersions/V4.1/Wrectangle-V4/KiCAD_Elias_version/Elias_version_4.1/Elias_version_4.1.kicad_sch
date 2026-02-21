@@ -6994,8 +6994,8 @@
 		)
 	)
 	(sheet
-		(at 215.9 36.83)
-		(size 58.42 40.64)
+		(at 238.76 30.48)
+		(size 36.83 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7010,7 +7010,7 @@
 		)
 		(uuid "45384e34-8109-461e-9e6e-d4eb26901d6b")
 		(property "Sheetname" "programmer"
-			(at 215.9 36.1184 0)
+			(at 238.76 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7019,12 +7019,92 @@
 			)
 		)
 		(property "Sheetfile" "stm32f1_programmer.kicad_sch"
-			(at 215.9 78.0546 0)
+			(at 238.76 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SWO" bidirectional
+			(at 238.76 35.56 180)
+			(uuid "648f89d4-faef-492e-8535-512dd29f6520")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWR_ENn" output
+			(at 238.76 38.1 180)
+			(uuid "5b8ecbab-b9dd-4999-a7b9-1dba060868e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STLK_TX" output
+			(at 238.76 59.69 180)
+			(uuid "77a8e6ed-4e99-455a-8f3f-dc2dee3e5b0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STLK_RX" input
+			(at 238.76 62.23 180)
+			(uuid "6dcbff17-3f15-4388-923d-944042032aae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRST" bidirectional
+			(at 238.76 52.07 180)
+			(uuid "073719cd-d71f-4756-a0cb-dc776a0c2681")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCK" bidirectional
+			(at 238.76 40.64 180)
+			(uuid "5cfe4e2b-9177-4ba5-811b-f0257d0e66fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TMS" bidirectional
+			(at 238.76 43.18 180)
+			(uuid "7b462c07-f282-4454-acad-90899803234b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCO" bidirectional
+			(at 238.76 45.72 180)
+			(uuid "c43a8ed3-07a1-4b09-9700-194a40ce29c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
