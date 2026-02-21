@@ -464,7 +464,7 @@
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
@@ -482,7 +482,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
@@ -2381,23 +2381,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J2"
+				(at 1.2701 19.05 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
-				(at 0 19.685 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at -1.2699 19.05 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_124019772112A"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -2827,7 +2829,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 15.24 15.24 180)
 					(length 5.08)
 					(name "VBUS"
@@ -8307,6 +8309,12 @@
 		(uuid "3d9bee23-c567-481e-a99a-87c72bedd972")
 	)
 	(junction
+		(at 125.73 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e682e7a-c405-4831-a956-a46909349997")
+	)
+	(junction
 		(at 72.39 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8377,6 +8385,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "780dbc66-f8b9-4bf1-a9d5-5a930c764e23")
+	)
+	(junction
+		(at 185.42 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f0709bd-b0d2-4e44-a9a2-0fe4fc143aaf")
 	)
 	(junction
 		(at 72.39 137.16)
@@ -9194,6 +9208,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 19.05) (xy 97.79 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef32775-5d77-40af-b8ae-d4c99d8b3176")
+	)
+	(wire
+		(pts
 			(xy 35.56 44.45) (xy 35.56 41.91)
 		)
 		(stroke
@@ -9434,6 +9458,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 20.32) (xy 125.73 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6df29b3-8089-4eda-8ddf-3e95606aa732")
+	)
+	(wire
+		(pts
 			(xy 72.39 25.4) (xy 72.39 27.94)
 		)
 		(stroke
@@ -9481,6 +9515,16 @@
 			(type default)
 		)
 		(uuid "d463a204-92d4-4f09-9a07-779cb92f0cd9")
+	)
+	(wire
+		(pts
+			(xy 185.42 15.24) (xy 191.77 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89f271e-0cd4-4c58-b272-cd9f58b4f8e9")
 	)
 	(wire
 		(pts
@@ -14479,7 +14523,7 @@
 		(dnp no)
 		(uuid "2551e5b9-dd60-421e-83c0-dd40c3ae401c")
 		(property "Reference" "C_BNO_Decap1"
-			(at 108.458 18.034 0)
+			(at 101.092 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16513,16 +16557,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 20.32 270)
+		(at 125.73 20.32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d4182c0-baaa-4105-aa14-91ad3e39b22c")
 		(property "Reference" "#PWR014"
-			(at 119.38 20.32 0)
+			(at 125.73 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16531,7 +16574,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 20.3199 90)
+			(at 127.254 23.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17404,73 +17447,6 @@
 			(project ""
 				(path "/999a87cf-6a03-4be4-a445-b5341a1dddf0"
 					(reference "R2_I2C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 191.77 15.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7676d775-57c4-4a96-9fa5-4c6080b882ac")
-		(property "Reference" "#PWR02"
-			(at 198.12 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 15.2399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f08367c-3038-427f-b33f-8df3cecf0d4e")
-		)
-		(instances
-			(project "Wrectangle-V4"
-				(path "/999a87cf-6a03-4be4-a445-b5341a1dddf0"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -19859,7 +19835,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 19.05 90)
+		(at 100.33 19.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19868,7 +19844,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3c570e7-b3ff-49e8-9739-826e021da224")
 		(property "Reference" "#PWR08"
-			(at 104.14 19.05 0)
+			(at 100.33 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19877,16 +19853,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 19.0499 90)
+			(at 100.33 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 19.05 0)
+			(at 100.33 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19895,7 +19870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 19.05 0)
+			(at 100.33 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19904,7 +19879,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 19.05 0)
+			(at 100.33 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20934,73 +20909,6 @@
 			(project "Wrectangle-V3"
 				(path "/999a87cf-6a03-4be4-a445-b5341a1dddf0"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 20.32 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df26da57-85b2-4062-b4d4-a3d2b3598272")
-		(property "Reference" "#PWR01"
-			(at 111.76 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 20.3199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "918e82d6-10a5-48e5-a66b-65f7c1b36832")
-		)
-		(instances
-			(project "Wrectangle-V4"
-				(path "/999a87cf-6a03-4be4-a445-b5341a1dddf0"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
