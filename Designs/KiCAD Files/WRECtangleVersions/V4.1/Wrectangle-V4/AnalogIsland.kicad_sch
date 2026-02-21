@@ -994,6 +994,26 @@
 		(color 0 0 0 0)
 		(uuid "d5473d2d-3a3a-4b0e-81d2-88550c477684")
 	)
+	(no_connect
+		(at 119.38 93.98)
+		(uuid "368abe9f-1100-4f85-be60-e8b572cc9a2c")
+	)
+	(no_connect
+		(at 119.38 104.14)
+		(uuid "4ad2cc89-f10a-4fea-823e-751e40ceeeb3")
+	)
+	(no_connect
+		(at 119.38 99.06)
+		(uuid "7a088130-2327-4f2b-9939-5ed51602e211")
+	)
+	(no_connect
+		(at 119.38 96.52)
+		(uuid "870f4103-d799-460e-b8d0-2242d9de00e8")
+	)
+	(no_connect
+		(at 119.38 101.6)
+		(uuid "b476e935-dfb4-4301-9086-d322446c931a")
+	)
 	(wire
 		(pts
 			(xy 111.76 106.68) (xy 119.38 106.68)
@@ -1150,28 +1170,6 @@
 			)
 		)
 	)
-	(global_label "AIN4"
-		(shape input)
-		(at 119.38 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6a48e36e-7e67-478b-afee-06ee7fec717e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.1614 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "AIN3"
 		(shape input)
 		(at 119.38 91.44 180)
@@ -1185,50 +1183,6 @@
 		(uuid "73662d62-ae57-4201-8163-aeba0e4fa6bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.1614 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AIN7"
-		(shape input)
-		(at 119.38 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ecf9d06-12bc-41ec-ac9c-b16c5f21125d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.1614 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AIN6"
-		(shape input)
-		(at 119.38 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "93f205a4-be37-4e45-8789-215ad35ac1b7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.1614 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,28 +1271,6 @@
 		(uuid "c0db26c8-0f76-48f7-b096-751aa22054f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 94.6839 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AIN5"
-		(shape input)
-		(at 119.38 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c668e711-a8a6-479f-a190-9204871120a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.1614 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
