@@ -1616,131 +1616,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR076"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2215,16 +2090,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 163.83) (xy 64.77 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "331e38fd-8c01-450c-b129-a8f7fb7c9dff")
-	)
-	(wire
-		(pts
 			(xy 107.95 78.74) (xy 99.06 78.74)
 		)
 		(stroke
@@ -2625,16 +2490,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 157.48) (xy 38.1 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a335a46e-6561-4c92-821c-867d6bc321fa")
-	)
-	(wire
-		(pts
 			(xy 255.27 45.72) (xy 236.22 45.72)
 		)
 		(stroke
@@ -2923,28 +2778,6 @@
 		)
 		(uuid "f87e116a-6ed7-4420-8b18-c3c2625ce34c")
 	)
-	(global_label "VBAT"
-		(shape input)
-		(at 64.77 163.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0c90109e-6d8d-4645-bd8d-4b2b4091176e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.17 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "24VCC"
 		(shape input)
 		(at 255.27 45.72 0)
@@ -3078,7 +2911,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "10Ω"
 			(at 101.6 63.4999 0)
 			(effects
 				(font
@@ -3490,7 +3323,7 @@
 				)
 			)
 		)
-		(property "Value" "7m"
+		(property "Value" "7mΩ 1W"
 			(at 113.03 41.91 90)
 			(effects
 				(font
@@ -3628,7 +3461,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 196.85 73.6599 0)
 			(effects
 				(font
@@ -3934,7 +3767,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "205k"
+		(property "Value" "205kΩ"
 			(at 238.76 64.7699 0)
 			(effects
 				(font
@@ -4004,7 +3837,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "11k"
+		(property "Value" "11kΩ"
 			(at 238.76 78.7399 0)
 			(effects
 				(font
@@ -4211,7 +4044,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "10Ω"
 			(at 121.92 63.4999 0)
 			(effects
 				(font
@@ -4397,72 +4230,6 @@
 			(project "Wrectangle-V4"
 				(path "/999a87cf-6a03-4be4-a445-b5341a1dddf0/a54ed999-f025-4f35-b083-b61c3d192ac9"
 					(reference "Cvcc-24V1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 38.1 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1e7388c-419b-435c-902a-451130476172")
-		(property "Reference" "#PWR076"
-			(at 38.1 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 38.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "621eb5e7-e063-418d-a37c-14a3766322a8")
-		)
-		(instances
-			(project ""
-				(path "/999a87cf-6a03-4be4-a445-b5341a1dddf0/a54ed999-f025-4f35-b083-b61c3d192ac9"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -5217,7 +4984,7 @@
 				)
 			)
 		)
-		(property "Value" "7m"
+		(property "Value" "7mΩ 1W"
 			(at 111.76 53.34 90)
 			(effects
 				(font
