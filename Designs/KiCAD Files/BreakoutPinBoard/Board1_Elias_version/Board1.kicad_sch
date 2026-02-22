@@ -4231,7 +4231,7 @@
 	)
 	(symbol
 		(lib_id "Board1-easyedapro:STM32F405RGT7")
-		(at 45.72 58.42 0)
+		(at 16.51 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4239,7 +4239,7 @@
 		(dnp no)
 		(uuid "013c1fb9-82d3-40f9-bfec-b5efde0e05f8")
 		(property "Reference" "U1"
-			(at 31.75 16.51 0)
+			(at 2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4248,7 @@
 			)
 		)
 		(property "Value" "STM32F405RGT7"
-			(at 31.75 102.87 0)
+			(at 2.54 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,7 +4257,7 @@
 			)
 		)
 		(property "Footprint" "Board1-easyedapro:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
-			(at 45.72 58.42 0)
+			(at 16.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +4266,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/STM32F405RGT7/1427478.html"
-			(at 45.72 58.42 0)
+			(at 16.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4275,7 @@
 			)
 		)
 		(property "Description" "CPU Core:ARM-M4 CPU Maximum Speed:168MHz Program Storage Size:1MB Program Memory Type:FLASH Number of I/O:51 ADC (Bit):12bit DAC (Bit):12bit Voltage - Supply:1.8V~3.6V Voltage - Supply:1.8V~3.6V"
-			(at 45.72 58.42 0)
+			(at 16.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4284,7 @@
 			)
 		)
 		(property "Manufacturer Part" "STM32F405RGT7"
-			(at 45.72 58.42 0)
+			(at 16.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +4293,7 @@
 			)
 		)
 		(property "Manufacturer" "ST(意法半导体)"
-			(at 45.72 58.42 0)
+			(at 16.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4302,7 @@
 			)
 		)
 		(property "Supplier Part" "C1337199"
-			(at 45.72 58.42 0)
+			(at 16.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +4311,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 45.72 58.42 0)
+			(at 16.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,7 +4320,7 @@
 			)
 		)
 		(property "LCSC Part Name" "带DSP和FPU的高性能基础系列ARM Cortex-M4 MCU，具有1 MB Flash、168 MHz CPU和ART加速器"
-			(at 45.72 58.42 0)
+			(at 16.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +4531,7 @@
 	)
 	(symbol
 		(lib_id "Board1-easyedapro:BME280")
-		(at 34.29 133.35 0)
+		(at 15.24 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4539,7 +4539,7 @@
 		(dnp no)
 		(uuid "2c4d7620-1c28-449d-8ec2-2d632992f6d6")
 		(property "Reference" "U2"
-			(at 24.13 125.73 0)
+			(at 5.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +4548,7 @@
 			)
 		)
 		(property "Value" "BME280"
-			(at 24.13 143.51 0)
+			(at 5.08 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,7 +4557,7 @@
 			)
 		)
 		(property "Footprint" "Board1-easyedapro:LGA-8_BME280_BL"
-			(at 34.29 133.35 0)
+			(at 15.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +4566,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/BME280/93682.html"
-			(at 34.29 133.35 0)
+			(at 15.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +4575,7 @@
 			)
 		)
 		(property "Description" "Temperature Range:-40°C~+85°C Temperature Range:-40°C~+85°C Humidity:0%RH~100%RH Humidity:0%RH~100%RH Interface:I2C；SPI Voltage - Supply:1.71V~3.6V Voltage - Supply:1.71V~3.6V Current - Supply:1.8uA Humidity Tolerance:±3%RH Humidity Tolerance:±3%RH Temperatur"
-			(at 34.29 133.35 0)
+			(at 15.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,7 +4584,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BME280"
-			(at 34.29 133.35 0)
+			(at 15.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4593,7 +4593,7 @@
 			)
 		)
 		(property "Manufacturer" "Bosch(博世)"
-			(at 34.29 133.35 0)
+			(at 15.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +4602,7 @@
 			)
 		)
 		(property "Supplier Part" "C92489"
-			(at 34.29 133.35 0)
+			(at 15.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +4611,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 34.29 133.35 0)
+			(at 15.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,7 +4620,7 @@
 			)
 		)
 		(property "LCSC Part Name" "湿度：0%RH~100%RH"
-			(at 34.29 133.35 0)
+			(at 15.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,7 +4663,7 @@
 	)
 	(symbol
 		(lib_id "Board1-easyedapro:H3LIS331DLTR")
-		(at 93.98 77.47 0)
+		(at 106.68 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4671,7 +4671,7 @@
 		(dnp no)
 		(uuid "322638a1-8f40-41c7-ac2c-038c32361ef1")
 		(property "Reference" "U4"
-			(at 76.2 66.04 0)
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +4680,7 @@
 			)
 		)
 		(property "Value" "H3LIS331DLTR"
-			(at 76.2 91.44 0)
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +4689,7 @@
 			)
 		)
 		(property "Footprint" "Board1-easyedapro:LGA-16_L3.0-W3.0-P0.50-BL"
-			(at 93.98 77.47 0)
+			(at 106.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,7 +4698,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/H3LIS331DLTR/2746983.html"
-			(at 93.98 77.47 0)
+			(at 106.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,7 +4707,7 @@
 			)
 		)
 		(property "Description" "Voltage - Supply:2.16V~3.6V Voltage - Supply:2.16V~3.6V Operating Temperature:-40°C~+85°C Operating Temperature:-40°C~+85°C"
-			(at 93.98 77.47 0)
+			(at 106.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +4716,7 @@
 			)
 		)
 		(property "Manufacturer Part" "H3LIS331DLTR"
-			(at 93.98 77.47 0)
+			(at 106.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4725,7 @@
 			)
 		)
 		(property "Manufacturer" "ST(意法半导体)"
-			(at 93.98 77.47 0)
+			(at 106.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4734,7 @@
 			)
 		)
 		(property "Supplier Part" "C2655074"
-			(at 93.98 77.47 0)
+			(at 106.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4743,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 93.98 77.47 0)
+			(at 106.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +4752,7 @@
 			)
 		)
 		(property "LCSC Part Name" "H3LIS331DLTR"
-			(at 93.98 77.47 0)
+			(at 106.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +4819,7 @@
 	)
 	(symbol
 		(lib_id "Board1-easyedapro:BNO085_C5189642")
-		(at 96.52 36.83 0)
+		(at 100.33 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4827,7 +4827,7 @@
 		(dnp no)
 		(uuid "727d0a30-6a0b-41d4-9001-1915b8088633")
 		(property "Reference" "U3"
-			(at 73.66 16.51 0)
+			(at 77.47 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +4836,7 @@
 			)
 		)
 		(property "Value" "BNO085"
-			(at 73.66 57.15 0)
+			(at 77.47 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +4845,7 @@
 			)
 		)
 		(property "Footprint" "Board1-easyedapro:LGA-28_L5.2-W3.8-P0.50-BL"
-			(at 96.52 36.83 0)
+			(at 100.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +4854,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/BNO085/5869007.html"
-			(at 96.52 36.83 0)
+			(at 100.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,7 +4863,7 @@
 			)
 		)
 		(property "Description" "Accelerometer Sensing Axis:X,Y,Z Acceleration Measurement Range (MAX):±8g Acceleration Measurement Range (MAX):±8g Gyroscope Sensing Axis:X,Y,Z Gyroscope Measurement Range (MAX):±2000dps Gyroscope Measurement Range (MAX):±2000dps Sensor Type:IMU Output Bi"
-			(at 96.52 36.83 0)
+			(at 100.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,7 +4872,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BNO085"
-			(at 96.52 36.83 0)
+			(at 100.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,7 +4881,7 @@
 			)
 		)
 		(property "Manufacturer" "CEVA"
-			(at 96.52 36.83 0)
+			(at 100.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +4890,7 @@
 			)
 		)
 		(property "Supplier Part" "C5189642"
-			(at 96.52 36.83 0)
+			(at 100.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4899,7 +4899,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 96.52 36.83 0)
+			(at 100.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4908,7 +4908,7 @@
 			)
 		)
 		(property "LCSC Part Name" "交钥匙传感器集线器解决方案"
-			(at 96.52 36.83 0)
+			(at 100.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +5011,7 @@
 	)
 	(symbol
 		(lib_id "Board1-easyedapro:MAX-M10S-00B")
-		(at -20.32 20.32 0)
+		(at 158.75 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5019,7 +5019,7 @@
 		(dnp no)
 		(uuid "779c15fb-3e37-4346-bfaf-41607aa3d72a")
 		(property "Reference" "U5"
-			(at -38.1 7.62 0)
+			(at 140.97 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,7 +5028,7 @@
 			)
 		)
 		(property "Value" "MAX-M10S-00B"
-			(at -38.1 35.56 0)
+			(at 140.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5037,7 @@
 			)
 		)
 		(property "Footprint" "Board1-easyedapro:SMD-18_L10.1-W9.7-P1.10-TL_SKG09F"
-			(at -20.32 20.32 0)
+			(at 158.75 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +5046,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/MAX-M10S-00B/4722633.html"
-			(at -20.32 20.32 0)
+			(at 158.75 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5055,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -20.32 20.32 0)
+			(at 158.75 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +5064,7 @@
 			)
 		)
 		(property "Manufacturer Part" "MAX-M10S-00B"
-			(at -20.32 20.32 0)
+			(at 158.75 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5073,7 @@
 			)
 		)
 		(property "Manufacturer" "U-BLOX"
-			(at -20.32 20.32 0)
+			(at 158.75 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5082,7 @@
 			)
 		)
 		(property "Supplier Part" "C4153167"
-			(at -20.32 20.32 0)
+			(at 158.75 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5091,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at -20.32 20.32 0)
+			(at 158.75 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5100,7 @@
 			)
 		)
 		(property "LCSC Part Name" "MAX-M10S-00B"
-			(at -20.32 20.32 0)
+			(at 158.75 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,7 +5173,7 @@
 	)
 	(symbol
 		(lib_id "Board1-easyedapro:FT232RL")
-		(at -12.7 64.77 0)
+		(at 166.37 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5181,7 +5181,7 @@
 		(dnp no)
 		(uuid "88e2cedb-b84c-49d8-a5f2-7a78d8ab1cc9")
 		(property "Reference" "U6"
-			(at -24.13 45.72 0)
+			(at 154.94 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,7 +5190,7 @@
 			)
 		)
 		(property "Value" "FT232RL"
-			(at -24.13 86.36 0)
+			(at 154.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5199,7 +5199,7 @@
 			)
 		)
 		(property "Footprint" "Board1-easyedapro:SSOP-28_L10.2-W5.3-P0.65-LS7.8-BL"
-			(at -12.7 64.77 0)
+			(at 166.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,7 +5208,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200318/C490691_690E4DF63E1AFF9F26AE376DE8985AE3.pdf"
-			(at -12.7 64.77 0)
+			(at 166.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5217,7 @@
 			)
 		)
 		(property "Description" "Applications Function:USB to UART Protocol:USB 2.0 Number of Channels:- Voltage - Supply:4V~5.25V；3.3V~5.25V Voltage - Supply:4V~5.25V；3.3V~5.25V Data Rate:- Operating Temperature:-40°C~+85°C Operating Temperature:-40°C~+85°C"
-			(at -12.7 64.77 0)
+			(at 166.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5226,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FT232RL"
-			(at -12.7 64.77 0)
+			(at 166.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +5235,7 @@
 			)
 		)
 		(property "Manufacturer" "FTDI(飞特帝亚)"
-			(at -12.7 64.77 0)
+			(at 166.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +5244,7 @@
 			)
 		)
 		(property "Supplier Part" "C490691"
-			(at -12.7 64.77 0)
+			(at 166.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5253,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at -12.7 64.77 0)
+			(at 166.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5262,7 @@
 			)
 		)
 		(property "LCSC Part Name" "FT232R USB UART IC"
-			(at -12.7 64.77 0)
+			(at 166.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,94 +5637,4 @@
 			)
 		)
 	)
-	(sheet
-		(at 130.81 82.55)
-		(size 25.4 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "74278b48-75b9-4317-8578-0371bf59b2b6")
-		(property "Sheetname" "Instrumentation_Sensors"
-			(at 130.81 81.8384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "wrectangle_sensors.kicad_sch"
-			(at 130.81 100.9146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Board1"
-				(path "/ac631e99-3ce8-46c8-8add-9874a2154669"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 129.54 50.8)
-		(size 25.4 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "aabb01d6-a17b-4d8f-95b7-265adb1cec35")
-		(property "Sheetname" "Power_supply_module"
-			(at 129.54 50.0884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "wrectangle_power_module.kicad_sch"
-			(at 129.54 69.1646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Board1"
-				(path "/ac631e99-3ce8-46c8-8add-9874a2154669"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

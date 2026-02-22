@@ -613,6 +613,14 @@
     [
       "ac631e99-3ce8-46c8-8add-9874a2154669",
       "Root"
+    ],
+    [
+      "74278b48-75b9-4317-8578-0371bf59b2b6",
+      "Instrumentation_Sensors"
+    ],
+    [
+      "aabb01d6-a17b-4d8f-95b7-265adb1cec35",
+      "Power_supply_module"
     ]
   ],
   "text_variables": {}
